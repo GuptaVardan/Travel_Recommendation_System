@@ -22,8 +22,8 @@ static/                 # Static files (e.g., video)
 ## Setup Instructions
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/GuptaVardan/Travel_Recommendation_System.git
+   cd Travel_Recommendation_System
    ```
 2. **Set up the environment**
    ```bash
