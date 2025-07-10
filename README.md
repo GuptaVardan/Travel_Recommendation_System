@@ -21,15 +21,24 @@ static/                 # Static files (e.g., video)
 
 ## Setup Instructions
 1. **Clone the repository**
-2. **Install dependencies**
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
+2. **Set up the environment**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run the application**
+4. **Run the application**
    ```bash
    python app.py
    ```
-4. **Access the app**
+5. **Access the app**
    Open your browser and go to [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ## Usage

@@ -13,12 +13,12 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
+            height: 150vh;
         }
         .container {
             position: relative;
             z-index: 2;
-            margin-top: 5%;
+            margin: 10vh auto;
         }
         .form-container {
             background: rgba(255, 255, 255, 0.9);
@@ -39,6 +39,10 @@
         }
         .recommendations-table th, .recommendations-table td {
             text-align: center;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: center;
         }
     </style>
 </head>
@@ -130,7 +134,9 @@
                                 <input type="number" id="children" name="children" class="form-control" placeholder="Enter number of children" required>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-custom mt-3">Get Recommendations</button>
+                        <div class="flex-container">
+                            <button type="submit" class="btn btn-custom mt-3">Get Recommendations</button>
+                        </div>
                     </form>
 
 
